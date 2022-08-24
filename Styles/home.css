@@ -1,0 +1,96 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: rgb(4, 3, 3) solid 10px;
+}
+.main-nav{
+    display: flex;
+    padding-right: 20px;
+    background-color: rgb(119, 150, 197);
+    align-items: center;
+}
+/* .main-section{
+    margin-left: 300px;
+} */
+.nav-item {
+    list-style: none;
+    margin-bottom: 50px;
+    
+    /* background-color: red; */
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+
+.main-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgba(120, 181, 208, 0.756);*/
+    background-image: url(../Images/backgroundimage.jpeg);
+
+}
+.link-item {
+    text-decoration: none;
+}
+.image {
+    border-radius: 50%;
+    padding-bottom: 10px;
+
+}
+.detail1{  
+    font-size: 30px;
+    /* line-height: 30px;  */
+    color: rgb(122, 24, 24);  
+    padding-bottom: 10px;
+    /* text-align: center;    */
+}
+.detail2{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+    /* line-height: 20px;           */
+    color: brown;                       
+    /* text-align: center; */
+}
+.detail3{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+    /* line-height: 20px; */
+    color: brown;
+    /* text-align: center; */
+}
+
+
+.contact-links{
+    display: flex;    
+    padding-top: 5rem;    
+}
+
+.github {
+
+    height: 40px;
+}
+
+.linkedin {
+
+    height: 40px;
+}
+
+.github-link {
+    padding-right: 15px;
+}
+
+.github-link:hover {
+    transform: scale(1.5);
+}
+
+.linkedin-link:hover {
+    transform: scale(1.5);
+}

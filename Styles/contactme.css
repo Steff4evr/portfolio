@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex start;
+    border: rgb(4, 3, 3) solid 10px;
+}
+.main-nav{
+    display: flex;
+    padding-right: 20px;
+    background-color: rgb(119, 150, 197);
+    align-items: center;
+}
+.nav-item {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.nav-item a {
+    text-decoration: none;
+}
+.nav-item {
+    list-style: none;
+    margin-bottom: 50px;
+    /* background-color: red; */
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+.contact-section {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: rgba(120, 181, 208, 0.756);*/
+    background-image: url(../Images/backgroundimage.jpeg);
+
+}
+
+.contactme{  
+    display: flex;
+    font-size: 30px;
+    /* line-height: 30px;  */
+    color: rgb(122, 24, 24);  
+    padding-top: 30px;
+    text-align: center;   
+}
+
+.contactme-name {
+    font-size: 20px;
+    padding-top: 90px;
+
+    /* line-height: 20px;  */
+    color: brown;                       
+    text-align: center; 
+}
+.form {
+    display: flex;
+    flex-direction: column;   
+    padding-top: 100px; 
+
+}
+
+#name {
+    height: 30px;
+    width: 500px;
+}
+
+#email {
+    height: 30px;
+    width: 500px;
+}
+
+#phno {
+    height: 30px;
+    width: 500px;
+}
+
+#message {
+    height: 100px;
+    width: 500px;
+}
+
+.submit:hover {
+
+transform: scale(1.1);    
+
+}
+
+.contact-links{
+    display: flex;    
+    padding-top: 5rem;    
+}
+
+.github {
+
+    height: 40px;
+}
+
+.linkedin {
+
+    height: 40px;
+}
+
+.github-link {
+    padding-right: 15px;
+}
+
+.github-link:hover {
+    transform: scale(1.5);
+}
+
+.linkedin-link:hover {
+    transform: scale(1.5);
+}
