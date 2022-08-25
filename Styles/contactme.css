@@ -183,28 +183,28 @@ transform: scale(1.1);
 
 #name {
     height: 30px;
-    width: 150px;
+    width: 180px;
 }
 
 #email {
     height: 30px;
-    width: 150px;
+    width: 180px;
 }
 
 #phno {
     height: 30px;
-    width: 150px;
+    width: 180px;
 }
 
 #message {
     height: 100px;
-    width: 150px;
+    width: 180px;
     padding-bottom: 30px;
 }
 
 .submit-class {
     padding-top: 25px;
-    padding-left: 0px;
+    padding-left: 40px;
 }
 .submit {
     height: 30px;

@@ -126,7 +126,7 @@
 
 }
 .date-published-blog1 {
-    padding-left: 135px;
+    padding-left: 130px;
 }
 .date-published-blog2 {
     padding-left: 30px;
@@ -189,3 +189,44 @@
 #more3 {display: none;}
 #more4 {display: none;}
 
+
+@media screen and (max-width: 700px) {
+
+    .main-nav {
+        display: none;
+      }
+    .main-content {
+        display: flex;
+        flex: 1;
+        flex-direction:row;
+        padding-top: 25px;
+        background-image: url(../Images/backgroundimage.jpeg);
+        overflow: auto;
+    
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width: 1000px) {
+
+    .main-nav {
+        display: none;
+      }
+    .main-content {
+        display: flex;
+        flex: 1;
+        flex-direction:column;
+        padding-top: 25px;
+        background-image: url(../Images/backgroundimage.jpeg);
+        overflow: auto;
+        padding-bottom: 500px;
+    
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .navbar {
+      display: none;
+    }
+  }

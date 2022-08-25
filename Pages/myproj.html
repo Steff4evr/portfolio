@@ -5,42 +5,61 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MY PROJECTS</title>
         <link rel="stylesheet" href="../Styles/myproj.css">
+        <link rel="stylesheet" href="../Styles/commonstyles.css">
     </head>
     <body class="container">
-        <div class="main-nav">
+        <mobnav class="navbar">
+            <mobnavcont class="nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <hamlines class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </hamlines>  
+                <menuitems class="menu-items">        
+                    <li class="nav-item"><a class="link-item" href="./home.html">HOME</a></li>        
+                    <li class="nav-item"><a class="link-item" href="./me.html">ME</a></li>
+                    <li class="nav-item"><a class="link-item" href="./myexp.html">MY EXPERIENCE</a></li>
+                    <li class="nav-item"><a class="link-item" href="./myproj.html">MY PROJECTS</a></li>
+                    <li class="nav-item"><a class="link-item" href="./myblogs.html">MY BLOGS</a></li>
+                    <li class="nav-item"><a class="link-item" href="./contactme.html">CONTACT ME</a></li>
+                </menuitems>
+            </mobnavcont>
+        </mobnav>
+
+        <mainnav class="main-nav">
             <ul>
-                <li class="nav-item"><a href="./home.html">HOME</a></li>
-                <li class="nav-item"><a href="./me.html">ME</a></li>
-                <li class="nav-item"><a href="./myexp.html">MY EXPERIENCE</a></li>
-                <li class="nav-item"><a href="./myblogs.html">MY BLOGS</a></li>
-                <li class="nav-item"><a href="./contactme.html">CONTACT ME</a></li>
+                <li class="nav-item"><a class="link-item" href="./home.html">HOME</a></li>        
+                <li class="nav-item"><a class="link-item" href="./me.html">ME</a></li>
+                <li class="nav-item"><a class="link-item" href="./myexp.html">MY EXPERIENCE</a></li>
+                <li class="nav-item"><a class="link-item" href="./myproj.html">MY PROJECTS</a></li>
+                <li class="nav-item"><a class="link-item" href="./myblogs.html">MY BLOGS</a></li>
+                <li class="nav-item"><a class="link-item" href="./contactme.html">CONTACT ME</a></li>   
             </ul>
-        </div>
-        <div class="main-content">
+        </mainnav>
+        <maincontent class="main-content">
             <h1 class="myprojects">MY PROJECTS</h1>
-            <div class="slideshow-container">
+            <slideshow class="slideshow-container">
                 <!-- Full-width images with number and caption text -->
                 <project class="project1placeholder">
                     <div class="mySlides">
-                        <div class="project1">PROJECT 1</div>
+                        <project1 class="project1">PROJECT 1</project1>
                         <p class="project1content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>                
                 </project>
                 <project class="project2placeholder">
                     <div class="mySlides">
-                        <div class="project2">PROJECT 2</div>
+                        <project2 class="project2">PROJECT 2</project2>
                         <p class="project2content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
                 </project>
                 <project class="project3placeholder">
                     <div class="mySlides">
-                        <div class="project3">PROJECT 3</div>
+                        <project3 class="project3">PROJECT 3</project3>
                         <p class="project3content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo consequat. Duis aute    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                     </div>
                 </project>
-            </div>
-           
-
-        </div>
+            </slideshow>       
+        </maincontent>
     </body>
 </html> 
