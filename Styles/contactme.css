@@ -118,3 +118,109 @@ transform: scale(1.1);
 .linkedin-link:hover {
     transform: scale(1.5);
 }
+
+
+
+@media screen and (max-width: 1000px) {
+    .main-nav {
+      display: none;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        border: rgb(4, 3, 3) solid 10px;
+    }
+
+    .contact-section {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 500px;
+        /*background-color: rgba(120, 181, 208, 0.756);*/
+        background-image: url(../Images/backgroundimage.jpeg);    
+    }
+  }
+
+@media screen and (max-width: 1000px) {
+    .main-nav {
+      display: none;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border: rgb(4, 3, 3) solid 10px;
+    }
+
+    .contact-section {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-top: 400px;
+        /*background-color: rgba(120, 181, 208, 0.756);*/
+        background-image: url(../Images/backgroundimage.jpeg);    
+        
+    }
+    .form {
+        display: flex;
+        flex-direction: column;           
+        padding-left: 100px;        
+    
+    }
+.contactform {
+
+    padding-bottom: 600px;
+    padding-right: 170px;
+
+}
+
+#name {
+    height: 30px;
+    width: 150px;
+}
+
+#email {
+    height: 30px;
+    width: 150px;
+}
+
+#phno {
+    height: 30px;
+    width: 150px;
+}
+
+#message {
+    height: 100px;
+    width: 150px;
+    padding-bottom: 30px;
+}
+
+.submit-class {
+    padding-top: 25px;
+    padding-left: 0px;
+}
+.submit {
+    height: 30px;
+    width: 100px;
+
+}
+
+.contact-links{
+    display: flex;    
+    padding-top: 5rem;    
+    padding-left: 100px;
+}
+  }
+
+  @media screen and (min-width: 1000px) {
+    .navbar {
+      display: none;
+    }
+  }
