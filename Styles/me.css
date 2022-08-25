@@ -26,8 +26,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    /* justify-content: center; */
-    align-items: center; 
+    padding-top: 25px;
     background-image: url(../Images/backgroundimage.jpeg);
     overflow: auto;
 
@@ -44,6 +43,7 @@
     background-position: center center;
     animation: baking-slides  10s linear infinite;
     border-radius: 50%;    
+    box-shadow: 0 0 20px 0  blue; 
 }
 .baking-container:hover { 
  transform: scale(1.2);
@@ -85,6 +85,7 @@
     background-position: center center;
     animation: photography-slides  10s linear infinite;
     border-radius: 50%;    
+    box-shadow: 0 0 20px 0  blue; 
 }
 
 .photography-container:hover { 
@@ -128,6 +129,7 @@
     background-position: center center;
     animation: travel-slides  10s linear infinite;
     border-radius: 50%;    
+    box-shadow: 0 0 20px 0  blue; 
 }
 
 .travel-container:hover {
@@ -162,11 +164,10 @@
 
 
 .detail1{  
-    font-size: 30px;
-    /* line-height: 30px;  */
+    font-size: 40px;
     color: rgb(122, 24, 24);  
-    /* padding-bottom: 300px; */
     text-align: center;    
+    box-shadow: 0 0 20px 0  blue; 
 }
 .detail2{
     /* font-size: 20px; */
@@ -177,28 +178,40 @@
     text-align: left; 
     font-size: 20px;
 }
-.detail3{
-    /* font-size: 20px; */
+.detail3{    
     padding-top: 50px;
-
-    /* line-height: 20px; */
     color: brown;
-    /* text-align: center; */
+    text-align: center;
 }
-.detail4{
-    /* font-size: 20px; */
+.detail4{ 
     padding-bottom: 10px;
-
-    /* line-height: 20px; */
     color: brown;
-    /* text-align: center; */
 }
 .interests {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
+    align-content: center;
+    padding-left: 300px;
+    
 }
 .interests-title {
     text-align: center;
     color: brown;
-    font-size: 22px;
+    font-size: 22px;    
 }
+
+
+@media screen and (max-width: 600px) {
+    .interests {
+      display: flex;
+      flex-direction: column; 
+      align-content: center;
+      justify-content: flex-end;
+      padding-inline-start: 10px;           
+                  }
+  
+     }            
+  
+
+
+ 

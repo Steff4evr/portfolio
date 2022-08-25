@@ -26,23 +26,18 @@
     display: flex;
     flex: 1;
     flex-direction:column;
-    /* justify-content: center; */
-    /*align-items: center;*/
+    padding-top: 25px;
     background-image: url(../Images/backgroundimage.jpeg);
     overflow: auto;
 
 }
 
 
-
-
 .myexperience{        
-    font-size: 30px;
-    /* line-height: 30px;  */
-    color: rgb(122, 24, 24);  
-    /* padding-bottom: 300px; */
-    text-align: center; 
-    padding-bottom: 70px;   
+    font-size: 40px;    
+    color: rgb(122, 24, 24);     
+    text-align: center;     
+    box-shadow: 0 0 20px 0  blue;       
 }
 
 .exp1{
@@ -146,6 +141,7 @@
     height: 150px;
     width: 250px;
     border-radius: 50%;
+    box-shadow: 0 0 20px 0  blue; 
 }
 
 .exp1pic1:hover {
@@ -156,6 +152,7 @@
     height: 150px;
     width: 250px;
     border-radius: 50%;    
+    box-shadow: 0 0 20px 0  blue; 
 }
 
 .exp2pic1:hover {
@@ -167,10 +164,15 @@
     height: 150px;
     width: 250px;
     border-radius: 50%;
+    box-shadow: 0 0 20px 0  blue; 
 }
 
 .exp3pic1:hover {
     transform: scale(1.1);
 }
 
-
+.navigatetop{
+    padding-left: 1100px;
+    padding-bottom: 50px;
+    font-size: 25px;
+}

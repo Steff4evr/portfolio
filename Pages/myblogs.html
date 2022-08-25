@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY BLOGS</title>
     <link rel="stylesheet" href="../Styles/myblogs.css">
+    <script src="../Script/readmore.js"></script>
 </head>
 <body>
     <body class="container">
@@ -19,13 +20,51 @@
         </div>
         <div class="main-content">
                 <h1 class="blog">MY BLOGS</h1>
-                <div class="blog1">BLOG 1</div>
-                <p class="blog1content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum  </p></h1>
-                <div class="blog2">BLOG 2</div>
-                <p class="blog2content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum  </p>
-                <div class="blog3">BLOG 3</div>
-                <p class="blog3content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo consequat. Duis aute    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum  </p>
-    
+                <blog class="blog1-placeholder">
+                    <div class="blog1-container">
+                        <div class="blog1">Favorite Movies</div>
+                        <date class="date-published-blog1">Date Published: 15/07/2022</date>
+                        <br>
+                        <img class="blog1-image" src="../Images/maverick.jpeg" alt="Maverick">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>                        
+                        <button onclick="myFunction()" id="myBtn">Read more</button>
+                    </div>
+                </blog>    
+                <blog class="otherblogs-placeholder">
+                    <div class="blog2-container">
+                        <div class="blog2">Restaurants I love</div>
+                        <date class="date-published-blog2">Date Published: 14/02/2022</date>
+                        <br>
+                        <img class="blog2-image" src="../Images/restaurants i love.jpeg" alt="Restraunts">
+                        <p class="blog2content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>                        
+                        <button onclick="myFunction1()" id="myBtn1">Read more</button>
+                    </div>
+                    <div class="blog3-container">
+                        <div class="blog3">A Journey to remember</div>
+                        <date class="date-published-blog3">Date Published: 22/12/2021</date>
+                        <br>
+                        <img class="blog3-image" src="../Images/journey.jpeg" alt="Journey">
+                        <p class="blog3content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots2">...</span><span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>                        
+                        <button onclick="myFunction2()" id="myBtn2">Read more</button>
+                    </div>
+                    <div class="blog4-container">
+                        <div class="blog4">Child welfare</div>
+                        <date class="date-published-blog4">Date Published: 15/11/2021</date>
+                        <br>
+                        <img class="blog4-image" src="../Images/child welfare.jpeg" alt="Child welfare">
+                        <p class="blog4content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots3">...</span><span id="more3">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>                        
+                        <button onclick="myFunction3()" id="myBtn3">Read more</button>
+                    </div>
+                    <div class="blog5-container">
+                        <div class="blog5">Baking!</div>
+                        <date class="date-published-blog5">Date Published: 05/09/2021</date>
+                        <br>
+                        <img class="blog5-image" src="../Images/baking!.jpeg" alt="Baking">
+
+                        <p class="blog5content1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots4">...</span><span id="more4">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>                        
+                        <button onclick="myFunction4()" id="myBtn4">Read more</button>
+                    </div>
+                </blog>    
           </div>
          </body>
 </body>
