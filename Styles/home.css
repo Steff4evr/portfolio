@@ -1,9 +1,12 @@
+/*Body Container*/
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
     justify-content: flex-start;
     border: rgb(4, 3, 3) solid 10px;
 }
+
+/*Navigation Bar*/
 .main-nav{
     display: flex;
     padding-right: 20px;
@@ -25,48 +28,14 @@
     transform: scale(1.2);
 }
 
-
+/*Main Section*/
 .main-section {
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    height: 100%;
-    /*background-color: rgba(120, 181, 208, 0.756);*/
+    align-items: center;    
     background-image: url(../Images/backgroundimage.jpeg);    
-}
-.link-item {
-    text-decoration: none;
-}
-.image {
-    border-radius: 50%;    
-    box-shadow: 0 0 20px 0  blue;        
-}
-.detail1{  
-    font-size: 30px;
-    /* line-height: 30px;  */
-    color: rgb(122, 24, 24);  
-    padding-top: 20px    ;
-    padding-bottom: 10px;
-    /* text-align: center;    */
-}
-.detail2{
-    font-size: 20px;
-    padding-bottom: 10px;
-
-    /* line-height: 20px;           */
-    color: brown;                       
-    /* text-align: center; */
-}
-.detail3{
-    font-size: 20px;
-    padding-bottom: 10px;
-
-    /* line-height: 20px; */
-    color: brown;
-    /* text-align: center; */
 }
 
 .intro{
@@ -75,10 +44,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 200px;
+    padding-bottom: 80px;
 
 }
+.link-item {
+    text-decoration: none;
+}
 
+.image {
+    border-radius: 50%; 
+    height: 250px;   
+    width: 210px;
+    box-shadow: 0 0 20px 0  blue;            
+}
+.detail1{  
+    font-size: 30px;    
+    color: rgb(122, 24, 24);  
+    padding-top: 20px    ;
+    padding-bottom: 10px;    
+}
+.detail2{
+    font-size: 20px;
+    padding-bottom: 10px;    
+    color: brown;                           
+}
+.detail3{
+    font-size: 20px;
+    padding-bottom: 10px;    
+    color: brown;
+    
+}
+
+/*Contact Icons Styling*/
 .contact-links{
     display: flex;    
     padding-top: 5rem;    
@@ -106,6 +103,9 @@
     transform: scale(1.5);
 }
 
+
+/*Media Screen Styling*/
+/*Mobile Screen */
 @media screen and (max-width: 1000px) {
     .main-nav {
       display: none;
@@ -116,7 +116,6 @@
         justify-content: flex-start;
         border: rgb(4, 3, 3) solid 10px;
     }
-
     .main-section {
         display: flex;
         flex: 1;
@@ -124,12 +123,12 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        padding-top: 500px;
-        /*background-color: rgba(120, 181, 208, 0.756);*/
+        padding-top: 500px;        
         background-image: url(../Images/backgroundimage.jpeg);    
     }
   }
 
+/*Tablets Screen*/
 @media screen and (max-width: 1000px) {
     .main-nav {
       display: none;
@@ -140,7 +139,7 @@
         justify-content: flex-start;
         border: rgb(4, 3, 3) solid 10px;
     }
-
+/*Desktop screen*/
     .main-section {
         display: flex;
         flex: 1;
@@ -148,8 +147,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
-        padding-top: 320px;
-        /*background-color: rgba(120, 181, 208, 0.756);*/
+        padding-top: 320px;        
         background-image: url(../Images/backgroundimage.jpeg);    
     }
     .intro{

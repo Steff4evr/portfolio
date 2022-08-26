@@ -1,9 +1,11 @@
+/*Container*/
 .container {
     display: flex;
     flex-direction: row wrap;
     justify-content: flex-start;
     border: rgb(4, 3, 3) solid 10px;
 }
+/*Navigation Bar*/
 .main-nav{
     display: flex;
     padding-right: 20px;
@@ -21,7 +23,7 @@
 .nav-item:hover{
     transform: scale(1.2);
 }
-
+/*Main content*/
 .main-content {
     display: flex;
     flex: 1;
@@ -108,17 +110,44 @@
     margin: auto;
   }
 
-  
+.prjimg{
+    height: 100px;
+    width: 100px;
+}
+.prjimg1{
+    height: 100px;
+    width: 200px;
+}
+.prjimg2{
+    height: 100px;
+    width: 100px;
+}      
+.project-images {
+display: flex;
+padding-left: 450px;
+
+
+}
+
 .mySlides{
 
   display: flex;
   flex-direction: column;  
   box-shadow: 0 0 20px 0  blue; 
   padding-top: 30px;
+  
 }
+.projectimage1{
+    
+  border-radius: 1px;
+  padding: 5px;
+  width: 100px;
+  
+  }
 
 
-@media screen and (max-width: 1000px) {
+/*Media screen for Mobile */
+@media screen and (max-width: 700px) {
   .main-nav {
     display: none;
   }
@@ -137,9 +166,70 @@
     padding-bottom: 700px;
     overflow: auto;
     background-image: url(../Images/backgroundimage.jpeg);
+    
+}
+.project-images {
+  display: flex;
+  padding-left: 30px;
+  
+  
+  }
+.prjimg{
+    height: 80px;
+    width: 80px;
+      }
+.prjimg1{
+        height: 80px;
+        width: 130px;
+          }
+.prjimg2{
+            height: 80px;
+            width: 80px;
+              }      
 }
 
+/*Media screen for tablets*/
+@media screen and (min-width: 700px) and (max-width: 1000px){
+  .main-nav {
+    display: none;
+  }
+  .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      border: rgb(4, 3, 3) solid 10px;
+  }
+
+  .main-content {
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    padding-top: 25px;
+    padding-bottom: 700px;
+    overflow: auto;
+    background-image: url(../Images/backgroundimage.jpeg);
+    
 }
+.project-images {
+  display: flex;
+  padding-left: 300px;
+  
+  
+  }
+.prjimg{
+    height: 80px;
+    width: 80px;
+      }
+.prjimg1{
+        height: 80px;
+        width: 130px;
+          }
+.prjimg2{
+            height: 80px;
+            width: 80px;
+              }      
+}
+/*Media Screen for desktop*/
 @media screen and (min-width: 1000px) {
   .navbar {
     display: none;

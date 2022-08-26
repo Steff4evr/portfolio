@@ -1,9 +1,13 @@
+
+/*Container*/
 .container {
     display: flex;
     flex-direction: row wrap;
     justify-content: flex-start;
     border: rgb(4, 3, 3) solid 10px;
 }
+
+/*Navigation Bar*/
 .main-nav{
     display: flex;
     padding-right: 20px;
@@ -21,7 +25,7 @@
 .nav-item:hover{
     transform: scale(1.2);
 }
-
+/*Main Content*/
 .main-content {
     display: flex;
     flex: 1;
@@ -32,14 +36,11 @@
 
 }
 .baking-container {
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-end;     */
     margin: 30px;
     display: inline-block;
     width: 10rem;
     height: 10rem;        
-    background-image: url("../images/baking1.jpeg");
+    background-image: url("../Images/interestsbaking1.jpeg");
     background-position: center center;
     animation: baking-slides  10s linear infinite;
     border-radius: 50%;    
@@ -48,25 +49,26 @@
 .baking-container:hover { 
  transform: scale(1.2);
 }
+/*Animation Transitions*/
 @keyframes baking-slides {
 
     from {
-        background: url("../images/baking1.jpeg");
+        background: url("../images/interestsbaking1.jpeg");
         background-size: cover;
         background-position: center center;
     }
     33% {
-        background: url("../images/baking2.jpeg");
+        background: url("../images/interestsbaking2.jpeg");
         background-size: cover;
         background-position: center center;
     }
     66% {
-        background: url("../images/baking3.jpeg");
+        background: url("../images/interestsbaking3.jpeg");
         background-size: cover;
         background-position: center center;
     }
     to {
-        background: url("../images/baking1.jpeg");
+        background: url("../images/interestsbaking1.jpeg");
         background-size: cover;
         background-position: center center;
     }
@@ -74,9 +76,6 @@
 }
  
 .photography-container{
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-end;     */
     display: inline-block;
     margin: 30px;
     width: 10rem;
@@ -92,6 +91,7 @@
     transform: scale(1.2);
    }
 
+   /*Animation Transitions*/
 @keyframes photography-slides {
 
     from {
@@ -118,9 +118,6 @@
 }
 
 .travel-container {
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-end;     */
     margin: 30px;
     display: inline-block;
     width: 10rem;
@@ -137,6 +134,7 @@
     transform: scale(1.2);
 }
 
+/*Animation Transitions*/
 @keyframes travel-slides {
 
     from {
@@ -183,10 +181,7 @@
     color: brown;
     text-align: center;
 }
-.detail4{ 
-    padding-bottom: 10px;
-    color: brown;
-}
+
 .interests {
     display: flex;
     flex-direction: row;
@@ -200,7 +195,7 @@
     font-size: 22px;    
 }
 
-
+/*Media Screen For desktop*/
 @media screen and (max-width: 1000px) {
     .main-nav {
       display: none;
@@ -237,7 +232,7 @@
   
   }
 
-
+/*Media Screen for Tablets*/
   @media screen and (min-width:700px) and (max-width: 1000px)  {
     .main-nav {
       display: none;
