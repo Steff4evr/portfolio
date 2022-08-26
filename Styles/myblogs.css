@@ -1,9 +1,11 @@
+/*Container*/
 .container {
     display: flex;
     flex-direction: row wrap;
     justify-content: flex-start;
     border: rgb(4, 3, 3) solid 10px;
 }
+/*Navigation Bar*/
 .main-nav{
     display: flex;
     padding-right: 20px;
@@ -20,6 +22,7 @@
 .nav-item:hover{
     transform: scale(1.2);
 }
+/*Main content*/
 
 .main-content {
     display: flex;
@@ -27,8 +30,7 @@
     flex-direction:column;
     padding-top: 25px;
     background-image: url(../Images/backgroundimage.jpeg);
-    overflow: auto;
-
+    
 }
 
 
@@ -38,6 +40,7 @@
     text-align: center;        
     box-shadow: 0 0 20px 0  blue; 
 }
+/*Slide Navigation*/
 .slider {
     position: relative;
     width: 100%;
@@ -83,6 +86,7 @@
     box-shadow: 0 0 20px 0  blue; 
     
   }
+  /*Read More*/
   #more {
     display: none;
   }
@@ -147,25 +151,23 @@
 }
   
 
-
+/*Media Screen for Mobile*/
 @media screen and (max-width: 700px) {
 
     .main-nav {
-        display: none;
+        display: none;        
       }
     .main-content {
         display: flex;
         flex: 1;
         flex-direction:column;
-        padding-top: 25px;
-        background-image: url(../Images/backgroundimage.jpeg);
-        overflow: auto;
-    
+        padding-top: 25px;        
+        background-image: url(../Images/backgroundimage.jpeg);                    
     }
 
 }
 
-
+/*Media Screen for Tablet*/
 @media screen and (min-width:700px) and (max-width: 1000px) {
 
   .main-nav {
@@ -176,8 +178,7 @@
         display: flex;
         flex: 1;
         flex-direction:column;
-        padding-top: 25px;
-        overflow: auto;
+        padding-top: 25px;        
         background-image: url(../Images/backgroundimage.jpeg);
             
     }
@@ -185,6 +186,8 @@
 
 
 }
+
+/*Media screen for desktops*/
 
 @media screen and (min-width: 1000px) {
     .navbar {

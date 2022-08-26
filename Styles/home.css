@@ -44,7 +44,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 80px;
+    padding-top: 120px;
 
 }
 .link-item {
@@ -103,6 +103,21 @@
     transform: scale(1.5);
 }
 
+footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: black;
+    line-height: 40px;
+    font-size: 1em;
+    text-align: center;
+    bottom:0;
+}
 
 /*Media Screen Styling*/
 /*Mobile Screen */
@@ -137,7 +152,7 @@
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        border: rgb(4, 3, 3) solid 10px;
+        border: rgb(4, 3, 3) solid 10px;        
     }
 /*Desktop screen*/
     .main-section {
@@ -158,6 +173,9 @@
         align-items: center;
         padding-bottom: 200px;
 
+    }
+    footer {
+        display: none;
     }
   }
 
