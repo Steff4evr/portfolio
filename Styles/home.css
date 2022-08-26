@@ -32,6 +32,9 @@
 .main-section {
     display: flex;
     flex: 1;
+    max-width: 1920px;
+    width: 100%;
+    height: inherit;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
@@ -121,7 +124,7 @@ p.copyright {
 
 /*Media Screen Styling*/
 /*Mobile Screen */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) and (min-width: 300px) {
     .main-nav {
       display: none;
     }
@@ -137,14 +140,12 @@ p.copyright {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
-        padding-top: 500px;        
+        height: inherit;               
         background-image: url(../Images/backgroundimage.jpeg);    
     }
   }
-
-/*Tablets Screen*/
-@media screen and (max-width: 1000px) {
+  /*Tablet Screen*/
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
     .main-nav {
       display: none;
     }
@@ -152,35 +153,21 @@ p.copyright {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        border: rgb(4, 3, 3) solid 10px;        
+        border: rgb(4, 3, 3) solid 10px;
     }
-/*Desktop screen*/
     .main-section {
         display: flex;
         flex: 1;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100%;
-        padding-top: 320px;        
+        height: inherit;     
         background-image: url(../Images/backgroundimage.jpeg);    
-    }
-    .intro{
-        display:flex;
-        flex: 1;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 200px;
-
-    }
-    footer {
-        display: none;
     }
   }
 
-
-  @media screen and (min-width: 1000px) {
+/*Desktop screen*/
+@media screen and (min-width: 1200px) {
     .navbar {
       display: none;
     }

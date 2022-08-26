@@ -1,7 +1,7 @@
 /*Container*/
 .container {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     justify-content: flex-start;
     border: rgb(4, 3, 3) solid 10px;
 }
@@ -31,6 +31,7 @@
     padding-top: 25px;
     background-image: url(../Images/backgroundimage.jpeg);
     
+
 }
 
 
@@ -152,7 +153,7 @@
   
 
 /*Media Screen for Mobile*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 768px) and (min-width: 300px) {
 
     .main-nav {
         display: none;        
@@ -165,10 +166,20 @@
         background-image: url(../Images/backgroundimage.jpeg);                    
     }
 
+    .slider {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+            
+    }
+
 }
 
 /*Media Screen for Tablet*/
-@media screen and (min-width:700px) and (max-width: 1000px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 
   .main-nav {
     display: none;
@@ -178,18 +189,21 @@
         display: flex;
         flex: 1;
         flex-direction:column;
-        padding-top: 25px;        
+        padding-top: 25px;  
+        max-width: 1920px;
+        width: 100%;
+        height: inherit;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;         
         background-image: url(../Images/backgroundimage.jpeg);
             
     }
-
-
-
 }
 
 /*Media screen for desktops*/
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
     .navbar {
       display: none;
     }

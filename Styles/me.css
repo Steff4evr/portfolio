@@ -29,6 +29,9 @@
 .main-content {
     display: flex;
     flex: 1;
+    max-width: 1920px;
+    width: 100%;
+    height: inherit;
     flex-direction: column;
     padding-top: 25px;
     background-image: url(../Images/backgroundimage.jpeg);
@@ -195,8 +198,8 @@
     font-size: 22px;    
 }
 
-/*Media Screen For desktop*/
-@media screen and (max-width: 1000px) {
+/*Media Screen For Mobile*/
+@media screen and (max-width: 768px) and (min-width: 300px) {
     .main-nav {
       display: none;
     }
@@ -211,9 +214,9 @@
       display: flex;
       flex: 1;
       flex-direction:column;
-      padding-top: 25px;
-      padding-bottom: 700px;
-      overflow: auto;
+      justify-content: center;
+      height: inherit;
+      padding-top: 770px;      
       background-image: url(../Images/backgroundimage.jpeg);
   }
   .detail3{
@@ -233,7 +236,7 @@
   }
 
 /*Media Screen for Tablets*/
-  @media screen and (min-width:700px) and (max-width: 1000px)  {
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
     .main-nav {
       display: none;
     }
@@ -242,17 +245,26 @@
         flex-direction: column;
         justify-content: flex-start;
         border: rgb(4, 3, 3) solid 10px;
-    }
-  
+        height: 100%;    
+        max-width: 1920px;
+        width: 100%;
+        height: inherit;
+        justify-content: center;
+    }  
     .main-content {
-      display: flex;
-      flex: 1;
-      flex-direction:column;
-      padding-top: 25px;
-      padding-bottom: 700px;
-      overflow: auto;
-      background-image: url(../Images/backgroundimage.jpeg);
+        display: flex;
+        flex: 1;
+        flex-direction:column;        
+        height: 100%;   
+        width: 100%;
+        justify-content: center;                             
+        padding-top:550px;
+        padding-bottom: 350px;
+        background-image: url(../Images/backgroundimage.jpeg);
   }
+
+
+
   .detail3{
     text-align: left;
     padding-left: 350px;
@@ -268,7 +280,7 @@
   }
   
   }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1200px) {
     .navbar {
       display: none;
     }

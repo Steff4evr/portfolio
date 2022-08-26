@@ -33,6 +33,8 @@
     flex: 1;
     padding-top: 25px;
     flex-direction: column;    
+    width: 100%;
+    align-content: center;
     background-image: url(../Images/backgroundimage.jpeg);    
 }
 
@@ -148,6 +150,8 @@ p.copyright {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        width: 100%;
+        align-content: center;
         border: rgb(4, 3, 3) solid 10px;
     }
 
@@ -158,7 +162,9 @@ p.copyright {
         justify-content: center;
         align-items: center;
         height: 100%;
-        padding-top: 400px;        
+        padding-top: 400px; 
+        width: 100%;
+        align-content: center;       
         background-image: url(../Images/backgroundimage.jpeg);    
         
     }
@@ -171,34 +177,34 @@ p.copyright {
 .contactform {
 
     padding-bottom: 600px;
-    padding-right: 170px;
+    padding-right: 100px;
 
 }
 
 #name {
     height: 30px;
-    width: 180px;
+    width: 300px;
 }
 
 #email {
     height: 30px;
-    width: 180px;
+    width: 300px;
 }
 
 #phno {
     height: 30px;
-    width: 180px;
+    width: 300px;
 }
 
 #message {
     height: 100px;
-    width: 180px;
+    width: 300px;
     padding-bottom: 30px;
 }
 
 .submit-class {
     padding-top: 25px;
-    padding-left: 40px;
+    padding-left: 90px;
 }
 .submit {
     height: 30px;
@@ -206,13 +212,10 @@ p.copyright {
 
 }
 
-
-
-
 .contact-links{
     display: flex;    
     padding-top: 5rem;    
-    padding-left: 100px;
+    padding-left: 180px;
 }
 
 footer {
