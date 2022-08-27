@@ -22,7 +22,7 @@
 
 .navbar .menu-items {
   display: flex;
-  opacity: 100PX;
+  opacity: 1;
   background-color:  rgb(119, 150, 197);
 }
 
