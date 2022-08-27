@@ -59,6 +59,7 @@
     /* z-index: 1; */
     margin-bottom: 2.5rem;
     clip-path: circle(0px at center);
+    
   }
   .slider .background-img img {
     position: absolute;
@@ -136,7 +137,7 @@
     border: 0;
   }
   .slider input[type=radio]:checked + .background-img {
-    /* z-index: 10; */
+    z-index: 10;
     clip-path: circle(2000px at center);
     transition-delay: 0.5s;
   }

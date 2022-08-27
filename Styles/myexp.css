@@ -33,6 +33,7 @@
     padding-top: 25px;
     background-image: url(../Images/backgroundimage.jpeg);
     overflow: auto;
+    
 
 }
 
@@ -41,7 +42,7 @@
     font-size: 40px;    
     color: rgb(122, 24, 24);     
     text-align: center;     
-    box-shadow: 0 0 20px 0  blue;       
+    box-shadow: 0 0 20px 0  blue;           
 }
 
 .exp1{
@@ -58,6 +59,8 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
+    transition: 0.5s;
+    animation: ease-in;
 }
 .pdficon{
     padding-top: 25px;
@@ -113,6 +116,7 @@
         flex-direction: column;
         justify-content: flex-start;
         border: rgb(4, 3, 3) solid 10px;
+ 
     }
   
     .main-content {

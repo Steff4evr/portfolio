@@ -60,6 +60,10 @@
     width: 210px;
     box-shadow: 0 0 20px 0  blue;            
 }
+
+.image:hover{
+    transform: scale(1.1);
+}
 .detail1{  
     font-size: 30px;    
     color: rgb(122, 24, 24);  

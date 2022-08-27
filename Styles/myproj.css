@@ -62,6 +62,7 @@
     align-items: baseline;
     padding-left: 30px;
     padding-bottom: 20px;
+
 }
 
 .project1content{
@@ -129,12 +130,28 @@ padding-left: 450px;
 
 }
 
+.prjimg:hover{
+  transform: scale(1.2);
+}
+
+.prjimg1:hover{
+  transform: scale(1.2);
+}
+
+.prjimg2:hover{
+  transform: scale(1.2);
+}
+
+
+
 .mySlides{
 
   display: flex;
   flex-direction: column;  
   box-shadow: 0 0 20px 0  blue; 
   padding-top: 30px;
+  transition: 0.5s;
+  animation: ease-in;
   
 }
 .projectimage1{
