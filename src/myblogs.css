@@ -1,0 +1,238 @@
+/*Container*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: rgb(4, 3, 3) solid 10px;
+}
+/*Navigation Bar*/
+.main-nav{
+    display: flex;
+    padding-right: 20px;
+    background-color: rgb(119, 150, 197);
+    align-items: center;
+}
+.nav-item {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.nav-item a {
+    text-decoration: none;
+}
+.nav-item:hover{
+    transform: scale(1.2);
+}
+/*Main content*/
+
+.main-content {
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    padding-top: 25px;
+    background-image: url(../docs/backgroundimage.jpeg);
+}
+.blog{        
+    font-size: 40px;
+    color: rgb(122, 24, 24);  
+    text-align: center;        
+    box-shadow: 0 0 20px 0  blue; 
+}
+/*Slide Navigation*/
+.slider {
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .slider .background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /* display: flex; */
+    justify-content: center;
+    transition: 0.5s;
+    transition-delay: 0s;
+    /* z-index: 1; */
+    margin-bottom: 2.5rem;
+    clip-path: circle(0px at center);
+    
+  }
+  .slider .background-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .slider .background-img .slider-content {
+    position: relative;
+    max-width: 800px;
+  }
+  .slider .background-img .slider-content .head-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: rgb(17, 36, 141);      
+    background: white;
+    align-items: center;
+    margin: 20px;
+    border: 20px;  
+    box-shadow: 0 0 20px 0  blue; 
+    
+  }
+  /*Read More*/
+  #more {
+    display: none;
+  }
+
+  #more1 {
+    display: none;
+  }
+  #more2 {
+    display: none;
+  }
+  #more3 {
+    display: none;
+  }
+  #more4 {
+    display: none;
+  }
+  .btnalign{
+    padding-left: 15px;
+  }
+ 
+
+  .slider .background-img .slider-content p {
+    color: black;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding-bottom: 1.5em;
+    padding-top: 1.5rem;
+    background: white;
+    padding-left: 20px;  
+    box-shadow: 0 0 20px 0  blue;       
+  }
+  .slider .background-img .slider-content a {
+    background: rgba(109, 79, 79, 0.342);
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+  }
+  .slider .background-img .slider-content a:hover {
+    background-color: black;
+  }
+  .slider input[type=radio] {
+    z-index: 1000;
+    margin: 5px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 5%;
+    border: 0;
+  }
+  .slider input[type=radio]:checked + .background-img {
+    z-index: 10;
+    clip-path: circle(2000px at center);
+    transition-delay: 0.5s;
+  }
+
+
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+
+/*Media Screen for Mobile*/
+@media screen and (max-width: 768px) and (min-width: 300px) {
+
+    .main-nav {
+        display: none;        
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border: rgb(4, 3, 3) solid 10px;
+    }
+
+    .main-content {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;        
+        height: inherit;            
+        background-image: url(../docs/backgroundimage.jpeg);                    
+    }
+
+    .slider {
+      position: relative;
+      width: 100%;
+      height: 100vh;;
+      display: flex;
+      flex-direction: row;
+      overflow: auto;
+      justify-content: center;
+            
+    } 
+    .head-container h1{
+
+      font-size: 40px;
+  }
+
+}
+
+/*Media Screen for Tablet*/
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+  .main-nav {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: rgb(4, 3, 3) solid 10px;
+  }
+  .main-content {
+      display: flex;
+      flex: 1;
+      flex-direction:column;
+      padding-top: 25px;  
+      max-width: 1920px;
+      width: 100%;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;       
+      background-image: url(../docs/backgroundimage.jpeg);  
+  }
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    justify-content: center;
+          
+  }  
+  
+  .head-container h1{
+
+    font-size: 40px;
+}
+}
+/*Media screen for desktops*/
+
+@media screen and (min-width: 1200px) {
+    .navbar {
+      display: none;
+    }
+  }

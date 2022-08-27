@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT ME</title>
+    <link rel="stylesheet" href="../src/contactme.css">
+    <link rel="stylesheet" href="../src/commonstyles.css">
+</head>
+<body class="container">
+    <!--Navigation bar for mobile devices-->
+    <mobnav class="navbar">
+        <mobnavcont class="nav-container">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <hamlines class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </hamlines>  
+            <menuitems class="menu-items">        
+                <li class="nav-item"><a class="link-item" href="./home.html">HOME</a></li>        
+                <li class="nav-item"><a class="link-item" href="./me.html">ME</a></li>
+                <li class="nav-item"><a class="link-item" href="./myexp.html">MY EXPERIENCE</a></li>
+                <li class="nav-item"><a class="link-item" href="./myproj.html">MY PROJECTS</a></li>
+                <li class="nav-item"><a class="link-item" href="./myblogs.html">MY BLOGS</a></li>
+                <li class="nav-item"><a class="link-item" href="./contactme.html">CONTACT ME</a></li>
+            </menuitems>
+        </mobnavcont>
+    </mobnav>
+    <!--Navigation Bar for desktop -->
+    <mainnav class="main-nav">
+        <ul>
+            <li class="nav-item"><a class="link-item" href="./home.html">HOME</a></li>        
+            <li class="nav-item"><a class="link-item" href="./me.html">ME</a></li>
+            <li class="nav-item"><a class="link-item" href="./myexp.html">MY EXPERIENCE</a></li>
+            <li class="nav-item"><a class="link-item" href="./myproj.html">MY PROJECTS</a></li>
+            <li class="nav-item"><a class="link-item" href="./myblogs.html">MY BLOGS</a></li>
+            <li class="nav-item"><a class="link-item" href="./contactme.html">CONTACT ME</a></li>        </ul>
+
+    </mainnav>
+    <!--Main Section-->
+    <section class="contact-section">
+        <h1 class="contactme">CONTACT ME</h1>
+        <contactform class="contactform">
+            <form class="form" name="contactme">
+                <input type="text" id="name" name="name" placeholder="Your Name" />
+                <br>
+                <input type="email" id="email" name="email" placeholder="Your email"/>
+                <br>            
+                <input type="phno" id="phno" name="phno" placeholder="Your phone number"/>
+                <br>
+                <textarea id="message" name="message" placeholder="Message"></textarea>             
+                <section class="submit-class">
+                    <button class="submit">SUBMIT</button>
+                </section>
+            </form>
+            
+            <section class="contact-links">
+                <a class="github-link"  href="https://github.com/">
+                    <img class="github" src="../docs/github.jpeg" alt="GitHub"/>
+                </a>
+                <a class="linkedin-link" href="https://linkedin.com/in/steffy-cherian-3a1815249">
+                    <img class="linkedin" src="../docs/linkedin.jpeg" alt="LinkedIn"/>
+                </a>
+            </section>
+        </contactform>
+        <footer>
+            <p class="copyright">© SteffyJohnson 2022</p>
+        </footer>
+    </section>
+
+                
+</body>
+</html>

@@ -1,0 +1,241 @@
+/*Container*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex start;
+    border: rgb(4, 3, 3) solid 10px;
+}
+/*Navigation Bar*/
+.main-nav{
+    display: flex;
+    padding-right: 20px;
+    background-color: rgb(119, 150, 197);
+    align-items: center;
+}
+.nav-item {
+    list-style: none;
+    margin-bottom: 50px;
+}
+.nav-item a {
+    text-decoration: none;
+}
+.nav-item {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.nav-item:hover{
+    transform: scale(1.2);
+}
+
+.contact-section {
+    display: flex;
+    flex: 1;
+    padding-top: 25px;
+    flex-direction: column;    
+    width: 100%;
+    align-content: center;
+    background-image: url(../docs/backgroundimage.jpeg);    
+}
+
+.contactme{      
+    font-size: 40px;    
+    color: rgb(122, 24, 24);      
+    text-align: center;   
+    box-shadow: 0 0 20px 0  blue; 
+}
+
+.contactme-name {
+    font-size: 20px;
+    padding-top: 90px;    
+    color: brown;                       
+    text-align: center; 
+}
+.form {
+    display: flex;
+    flex-direction: column;   
+    padding-top: 100px; 
+    padding-left: 400px;
+
+}
+
+#name {
+    height: 30px;
+    width: 500px;
+}
+
+#email {
+    height: 30px;
+    width: 500px;
+}
+
+#phno {
+    height: 30px;
+    width: 500px;
+}
+
+#message {
+    height: 100px;
+    width: 500px;
+    padding-bottom: 30px;
+}
+.submit-class {
+    padding-top: 25px;
+    padding-left: 200px;
+}
+.submit {
+    height: 30px;
+    width: 100px;
+
+}
+
+.submit:hover {
+transform: scale(1.1);    
+}
+
+/*Contact Icons styling*/
+
+.contact-links{
+    display: flex;    
+    padding-top: 5rem;    
+    padding-left: 580px;
+}
+
+.github {
+    height: 50px;
+    
+}
+
+.linkedin {
+    height: 45px;
+
+}
+
+.github-link {
+    padding-right: 15px;
+}
+
+.github-link:hover {
+    transform: scale(1.5);
+}
+
+.linkedin-link:hover {
+    transform: scale(1.5);
+}
+
+footer {
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: black;
+    line-height: 40px;
+    font-size: 1em;
+    text-align: center;
+    bottom:0;
+}
+
+
+/*Media screen  for Mobile*/
+
+@media screen and (max-width: 1000px) {
+    .main-nav {
+      display: none;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        align-content: center;
+        border: rgb(4, 3, 3) solid 10px;
+    }
+
+    .contact-section {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding-top: 400px; 
+        width: 100%;
+        align-content: center;       
+        background-image: url(../docs/backgroundimage.jpeg);    
+        
+    }
+    .form {
+        display: flex;
+        flex-direction: column;           
+        padding-left: 100px;        
+    
+    }
+.contactform {
+
+    padding-bottom: 600px;
+    padding-right: 100px;
+
+}
+
+#name {
+    height: 30px;
+    width: 300px;
+}
+
+#email {
+    height: 30px;
+    width: 300px;
+}
+
+#phno {
+    height: 30px;
+    width: 300px;
+}
+
+#message {
+    height: 100px;
+    width: 300px;
+    padding-bottom: 30px;
+}
+
+.submit-class {
+    padding-top: 25px;
+    padding-left: 90px;
+}
+.submit {
+    height: 30px;
+    width: 100px;
+
+}
+
+.contact-links{
+    display: flex;    
+    padding-top: 5rem;    
+    padding-left: 180px;
+}
+
+footer {
+display: none;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: black;
+    line-height: 40px;
+    font-size: 1em;
+    text-align: center;
+    bottom:0;
+}
+
+
+  }
+/*Media screen for desktops*/
+  @media screen and (min-width: 1000px) {
+    .navbar {
+      display: none;
+    }
+  }
