@@ -2,7 +2,9 @@
 
 [Netlify Link]()
     
-[github repo]()
+[github repo](https://github.com/Steff4evr/portfolio)
+
+[Youtube link] ()
 
 
 
