@@ -1,7 +1,7 @@
 /*Container*/
 .container {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row ;
     justify-content: flex-start;
     border: rgb(4, 3, 3) solid 10px;
 }
@@ -27,8 +27,7 @@
 .main-content {
     display: flex;
     flex: 1;
-    flex-direction:column;
-    padding-top: 25px;
+    flex-direction:column;    
     overflow: auto;
     background-image: url(../docs/backgroundimage.jpeg);
 
@@ -42,18 +41,18 @@
 }
 
 .project1placeholder{
-  margin: 4rem;
-  padding: 25px;
+  margin: 30px;
+  padding: 15px;
 }
 
 .project2placeholder{
-  margin: 4rem;
-  padding: 25px;
+  margin: 30px;
+  padding: 15px;
 }
 
 .project3placeholder{
-  margin: 4rem;
-  padding: 25px;
+  margin: 30px;
+  padding: 15px;
 }
 
 .project1{
@@ -125,8 +124,8 @@
 }      
 .project-images {
 display: flex;
-padding-left: 450px;
-
+flex-direction: row;
+align-self: center;
 
 }
 
@@ -169,55 +168,29 @@ padding-left: 450px;
     display: none;
   }
   .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      border: rgb(4, 3, 3) solid 10px;      
-  }
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: rgb(4, 3, 3) solid 10px;
+    height: 100%;    
+    max-width: 1920px;
+    width: 100%;      
+}
 
   .main-content {
     display: flex;
     flex: 1;
     flex-direction:column;
-    padding-top: 25px;
-    padding-bottom: 700px;
-    overflow: auto;
-    height: 100vh;
+    overflow: auto;  
     background-image: url(../docs/backgroundimage.jpeg);
     
 }
 .project-images {
   display: flex;
-  padding-left: 30px;
+  align-self: center;
   
   
   }
-.prjimg{
-    height: 80px;
-    width: 80px;
-      }
-.prjimg1{
-        height: 80px;
-        width: 130px;
-          }
-.prjimg2{
-            height: 80px;
-            width: 80px;
-              }      
-
-.project1placeholder {
- flex-direction: column;
- width: 200px;
-}
-.project2placeholder {
-  flex-direction: column;
-  width: 200px;
- }
-
- .project3placeholder {
-  flex-direction: column;
-  width: 200px;
- }
 
 }
 
@@ -227,40 +200,28 @@ padding-left: 450px;
     display: none;
   }
   .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      border: rgb(4, 3, 3) solid 10px;
-  }
-
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border: rgb(4, 3, 3) solid 10px;
+    height: 100%;    
+    max-width: 1920px;
+    width: 100%;      
+}
   .main-content {
     display: flex;
     flex: 1;
     flex-direction:column;
-    padding-top: 25px;
-    padding-bottom: 700px;
     overflow: auto;
     background-image: url(../docs/backgroundimage.jpeg);
     
 }
 .project-images {
   display: flex;
-  padding-left: 300px;
-  
+ align-self: center; 
   
   }
-.prjimg{
-    height: 80px;
-    width: 80px;
-      }
-.prjimg1{
-        height: 80px;
-        width: 130px;
-          }
-.prjimg2{
-            height: 80px;
-            width: 80px;
-              }      
+
 }
 /*Media Screen for desktop*/
 @media screen and (min-width: 1200px) {

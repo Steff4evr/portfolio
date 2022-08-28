@@ -27,8 +27,7 @@
 .main-content {
     display: flex;
     flex: 1;
-    flex-direction:column;
-    padding-top: 25px;
+    flex-direction:column;    
     background-image: url(../docs/backgroundimage.jpeg);
 }
 .blog{        
@@ -37,11 +36,13 @@
     text-align: center;        
     box-shadow: 0 0 20px 0  blue; 
 }
+.head-container h1{
+  font-size: 40px;
+}
 /*Slide Navigation*/
 .slider {
     position: relative;
     width: 100%;
-    /* height: 100%; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -52,11 +53,9 @@
     width: 100%;
     height: 100%;
     top: 0;
-    /* display: flex; */
-    justify-content: center;
     transition: 0.5s;
     transition-delay: 0s;
-    /* z-index: 1; */
+    z-index: 1; 
     margin-bottom: 2.5rem;
     clip-path: circle(0px at center);
     
@@ -159,34 +158,18 @@
       .container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        border: rgb(4, 3, 3) solid 10px;
+        align-self: center;
+        border: rgb(4, 3, 3) solid 10px; 
+        max-width: 1920px;
+        width: 100%;      
     }
-
     .main-content {
         display: flex;
         flex: 1;
         flex-direction: column;
-        justify-content: center;        
-        height: inherit;            
+        justify-content: center;                
         background-image: url(../docs/backgroundimage.jpeg);                    
     }
-
-    .slider {
-      position: relative;
-      width: 100%;
-      height: 100vh;;
-      display: flex;
-      flex-direction: row;
-      overflow: auto;
-      justify-content: center;
-            
-    } 
-    .head-container h1{
-
-      font-size: 40px;
-  }
-
 }
 
 /*Media Screen for Tablet*/
@@ -198,36 +181,18 @@
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    border: rgb(4, 3, 3) solid 10px;
-  }
+    align-self: center;
+    border: rgb(4, 3, 3) solid 10px;      
+    max-width: 1920px;
+    width: 100%;      
+}
   .main-content {
       display: flex;
       flex: 1;
-      flex-direction:column;
-      padding-top: 25px;  
-      max-width: 1920px;
-      width: 100%;
-      height: 100%;
-      flex-direction: column;
-      justify-content: center;       
+      flex-direction:column;     
       background-image: url(../docs/backgroundimage.jpeg);  
   }
-  .slider {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    overflow: auto;
-    justify-content: center;
-          
-  }  
-  
-  .head-container h1{
 
-    font-size: 40px;
-}
 }
 /*Media screen for desktops*/
 
