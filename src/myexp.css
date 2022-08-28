@@ -45,19 +45,19 @@
 }
 
 .exp1{
+
+    display: flex;
+    flex-direction: column;
     font-size: 25px;
     font-weight: bold;
-    align-items: baseline;
-    padding-left: 30px;
     padding-top: 100px;
+    align-self: center;
+    
 }
 
 .exp1content{
-    font-size: 20px;
-    align-items: baseline;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
+    font-size: 20px;    
+    padding: 30px;    
     transition: 0.5s;
     animation: ease-in;
 }
@@ -70,10 +70,9 @@
 .resume-container{
      display: flex;
      flex-direction: column;
-     justify-content: center;
+     align-self: center;
      padding-top: 150px;
-     padding-left: 45%;
-     padding-bottom: 35px;
+
     }
 .resume-heading{
     font-size: 20px;
@@ -100,10 +99,12 @@
     transform: scale(1.1);
 }
 
-.navigatetop{
-    padding-left: 1100px;
-    padding-bottom: 50px;
-    font-size: 25px;
+.container-top{
+  display: flex;
+  align-self: flex-end;
+  font-size: large;
+  padding-bottom: 25px;
+
 }
 /*Media Screen for Mobile devices*/
 @media screen and (max-width: 768px) and (min-width: 300px) {
@@ -113,17 +114,18 @@
     .container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        align-self: center;
         border: rgb(4, 3, 3) solid 10px;
- 
+        height: 100%;    
+        max-width: 1920px;
+        width: 100%;      
     }
   
     .main-content {
       display: flex;
       flex: 1;
       flex-direction:column;
-      padding-top: 25px;
-      padding-bottom: 700px;
+      align-self: center;
       overflow: auto;
       background-image: url(../docs/backgroundimage.jpeg);
      
@@ -134,19 +136,8 @@
         border-radius: 50%;
         box-shadow: 0 0 20px 0  blue; 
 }
-.resume-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 150px;
-    padding-left: 35%;
-    padding-bottom: 35px;
-   }
-   .navigatetop{
-    padding-left: 200px;
-    padding-bottom: 50px;
-    font-size: 25px;
-}
+
+
 }    
 
 
@@ -158,37 +149,28 @@
     .container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        align-self: center;
         border: rgb(4, 3, 3) solid 10px;
+        height: 100%;    
+        max-width: 1920px;
+        width: 100%;      
     }
   
     .main-content {
-      display: flex;
-      flex: 1;
-      flex-direction:column;
-      padding-top: 25px;
-      padding-bottom: 700px;
-      height: 100%;      
+      display: flex;      
+      flex-direction:column;    
+      align-self: center;                  
       background-image: url(../docs/backgroundimage.jpeg);
      
   }
-    .exp1pic1 {
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        box-shadow: 0 0 20px 0  blue; 
-}
+
 .resume-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 150px;        
    }
-   .navigatetop{
-    padding-left: 750px;
-    padding-bottom: 50px;
-    font-size: 25px;
-}
+   
 }  
   
   /*Media screen for desktop*/
