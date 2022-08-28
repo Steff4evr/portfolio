@@ -1,3 +1,4 @@
+/*Slide feature for myblogs page*/
 let slideIndex = 1;
 showSlides(slideIndex);
 

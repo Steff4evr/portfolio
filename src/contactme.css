@@ -28,6 +28,8 @@
     transform: scale(1.2);
 }
 
+/*Main contents in the body*/
+
 .contact-section {
     display: flex;
     flex: 1;
@@ -57,6 +59,7 @@
 
 }
 
+/*Input form*/
 
 .form {
     display: flex;
@@ -132,6 +135,7 @@ transform: scale(1.1);
     transform: scale(1.5);
 }
 
+/*Footer*/
 footer {
     position: relative;
     height: 300px;

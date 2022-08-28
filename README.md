@@ -4,7 +4,7 @@
     
 [github repo](https://github.com/Steff4evr/portfolio)
 
-[Youtube link] (https://www.youtube.com/watch?v=R96b7a7vwLM)
+[Youtube link](https://youtu.be/8gfiuOloo_Q)
 
 
 
@@ -14,6 +14,7 @@ The purpose of this website is to showcase my skills as an aspiring web develope
 
 ## FUNCTIONALITY/FEATURES
 This portfolio is designed to be simple and eye catching, but easy to navigate, all while capturing a glimpse of my personality through bright colour choices.
+Have added animations to the portfolio pages and graphical elements.
 
 ### Home: 
 Contains an image of myself, my name, email address and phone number. This also contains a link to my github and likedin  profiles.
@@ -62,7 +63,7 @@ Each page links together with a navbar at the top. 5 blog posts are accessible f
 ![My projects](./docs/MYPROJ-Screenshot.png)
 
 ### My blogs
-![My blogs](./docs/MYBLOG.png)
+![My blogs](./docs/MYBLOGS-Screenshot.png)
 
 ### Contact me
 ![Contact me](./docs/CONTACTME-Screenshot.png)

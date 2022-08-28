@@ -1,3 +1,4 @@
+/*Readmore feature for blog page*/
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");

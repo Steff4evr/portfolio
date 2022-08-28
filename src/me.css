@@ -306,6 +306,8 @@
 
 
   }
+
+  /*Screen for desktop*/
   @media screen and (min-width: 1200px) {
     .navbar {
       display: none;
