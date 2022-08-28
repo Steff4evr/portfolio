@@ -2,7 +2,7 @@
 /*Container*/
 .container {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
     justify-content: flex-start;
     border: rgb(4, 3, 3) solid 10px;
 }
@@ -32,12 +32,19 @@
     max-width: 1920px;
     width: 100%;
     height: inherit;
-    flex-direction: column;
-    padding-top: 25px;
+    flex-direction: column;    
     background-image: url(../docs/backgroundimage.jpeg);
     overflow: auto;
 
 }
+
+.interestscontainer {
+
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
 .baking-container {
     margin: 30px;
     display: inline-block;
@@ -181,8 +188,7 @@
     transition: 0.5s;
     animation: ease-in;
 }
-.detail3{    
-    padding-top: 50px;
+.detail3{        
     color: brown;
     text-align: center;
 }
@@ -191,7 +197,7 @@
     display: flex;
     flex-direction: row;
     align-content: center;
-    padding-left: 300px;
+    
     
 }
 .interests-title {
@@ -208,21 +214,23 @@
     .container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-         border: rgb(4, 3, 3) solid 10px;         
-    }
-  
+        align-self: center;
+        border: rgb(4, 3, 3) solid 10px;
+        height: 100%;    
+        max-width: 1920px;
+        width: 100%;        
+        
+    }  
     .main-content {
-      display: flex;
-      flex: 1;
-      flex-direction:column;
-      justify-content: center;
-      height: inherit;
-      padding-top: 770px;      
-      background-image: url(../docs/backgroundimage.jpeg);
-      overflow: auto; 
-      
+        display: flex;
+        flex: 1;
+        flex-direction:column;        
+        height: 100%;   
+        width: 100%;
+        align-self: center;   
+        background-image: url(../docs/backgroundimage.jpeg);
   }
+
 
   .interestscontainer {
     display: flex;
@@ -236,8 +244,7 @@
   }
   .interests {
     display: flex;
-    flex-direction: column;
-    padding-left: 50px;
+    flex-direction: column;    
   }
   .interests-title{
     text-align: left;
@@ -254,13 +261,12 @@
     .container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        align-self: center;
         border: rgb(4, 3, 3) solid 10px;
         height: 100%;    
         max-width: 1920px;
-        width: 100%;
-        height: inherit;
-        justify-content: center;
+        width: 100%;        
+        
     }  
     .main-content {
         display: flex;
@@ -268,9 +274,7 @@
         flex-direction:column;        
         height: 100%;   
         width: 100%;
-        justify-content: center;                             
-        padding-top:370px;
-        padding-bottom: 350px;
+        justify-content: center;    
         background-image: url(../docs/backgroundimage.jpeg);
   }
 

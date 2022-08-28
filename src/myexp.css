@@ -29,8 +29,7 @@
 .main-content {
     display: flex;
     flex: 1;
-    flex-direction:column;
-    padding-top: 25px;
+    flex-direction:column;    
     background-image: url(../docs/backgroundimage.jpeg);
     overflow: auto;
     
