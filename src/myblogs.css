@@ -57,7 +57,7 @@
     transition-delay: 0s;
     z-index: 1; 
     margin-bottom: 2.5rem;
-    clip-path: circle(0px at center);
+    clip-path: circle(0px at center); 
     
   }
   .slider .background-img img {
@@ -136,9 +136,9 @@
     border: 0;
   }
   .slider input[type=radio]:checked + .background-img {
-    z-index: 10;
-    clip-path: circle(2000px at center);
-    transition-delay: 0.5s;
+    z-index: 10; 
+     clip-path: circle(2000px at center); 
+     transition-delay: 0.5s; 
   }
 
 
