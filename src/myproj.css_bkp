@@ -172,7 +172,7 @@ padding-left: 450px;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      border: rgb(4, 3, 3) solid 10px;      
+      border: rgb(4, 3, 3) solid 10px;
   }
 
   .main-content {
@@ -204,21 +204,6 @@ padding-left: 450px;
             height: 80px;
             width: 80px;
               }      
-
-.project1placeholder {
- flex-direction: column;
- width: 200px;
-}
-.project2placeholder {
-  flex-direction: column;
-  width: 200px;
- }
-
- .project3placeholder {
-  flex-direction: column;
-  width: 200px;
- }
-
 }
 
 /*Media screen for tablets*/

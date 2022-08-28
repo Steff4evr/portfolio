@@ -1,10 +1,10 @@
 # T1A2 - Portfolio
 
-[Netlify Link]()
+[Netlify Link](https://steffyjohnson.netlify.app/)
     
 [github repo](https://github.com/Steff4evr/portfolio)
 
-[Youtube link] ()
+[Youtube link] (https://www.youtube.com/watch?v=R96b7a7vwLM)
 
 
 
