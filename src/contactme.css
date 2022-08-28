@@ -31,7 +31,6 @@
 .contact-section {
     display: flex;
     flex: 1;
-    padding-top: 25px;
     flex-direction: column;    
     width: 100%;
     align-content: center;
@@ -51,12 +50,19 @@
     color: brown;                       
     text-align: center; 
 }
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 .form {
     display: flex;
-    flex-direction: column;   
-    padding-top: 100px; 
-    padding-left: 400px;
-
+    flex-direction: column;  
+    align-self: center;
+    padding-top: 50px;
 }
 
 #name {
@@ -80,8 +86,9 @@
     padding-bottom: 30px;
 }
 .submit-class {
-    padding-top: 25px;
-    padding-left: 200px;
+display: flex;
+flex-direction: column;
+align-self: center;
 }
 .submit {
     height: 30px;
@@ -97,8 +104,10 @@ transform: scale(1.1);
 
 .contact-links{
     display: flex;    
-    padding-top: 5rem;    
-    padding-left: 580px;
+    flex-direction: row;
+    align-self: center;
+    padding-top: 25px;
+
 }
 
 .github {
@@ -160,8 +169,7 @@ p.copyright {
         flex: 1;
         flex-direction: column;
         justify-content: center;
-        height: 100%;
-        padding-top: 300px; 
+        height: 100%;        
         width: 100%;
         align-content: center;       
         background-image: url(../docs/backgroundimage.jpeg);    
@@ -170,13 +178,13 @@ p.copyright {
     .form {
         display: flex;
         flex-direction: column;           
-        padding-left: 100px;        
+        align-items: center;      
     
     }
 .contactform {
 
-    padding-bottom: 600px;
-    padding-right: 100px;
+display: flex;
+flex-direction: column;
 
 }
 
@@ -202,10 +210,14 @@ p.copyright {
 }
 
 .submit-class {
-    padding-top: 25px;
-    padding-left: 90px;
+ display: flex;
+ align-self: center;
+ flex-direction: column;
+
 }
 .submit {
+    display: flex;
+    align-self: center;
     height: 30px;
     width: 100px;
 
@@ -213,13 +225,9 @@ p.copyright {
 
 .contact-links{
     display: flex;    
-    padding-top: 5rem;    
-    padding-left: 180px;
+
 }
 
-footer {
-display: none;
-}
 
 p.copyright {
     position: absolute;
@@ -252,7 +260,6 @@ p.copyright {
         flex-direction: column;
         justify-content: center;
         height: 100%;
-        padding-top: 300px; 
         width: 100%;
         align-content: center;       
         background-image: url(../docs/backgroundimage.jpeg);    
@@ -260,15 +267,15 @@ p.copyright {
     }
     .form {
         display: flex;
-        flex-direction: column;                      
+        flex-direction: column;                          
     
     }
-.contactform {
+    .contactform {
 
-    padding-bottom: 600px;
-    padding-right: 100px;
-
-}
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    }
 
 #name {
     height: 30px;
@@ -291,10 +298,7 @@ p.copyright {
     padding-bottom: 30px;
 }
 
-.submit-class {
-    padding-top: 25px;
-    padding-left: 90px;
-}
+
 .submit {
     height: 30px;
     width: 100px;
@@ -303,16 +307,9 @@ p.copyright {
 
 .contact-links{
     display: flex;    
-    padding-top: 5rem;    
-    padding-left: 500px;  
 }
 
-footer {
-display: flex;
-align-content: center;
 
-
-}
 
 p.copyright {
     position: absolute;
